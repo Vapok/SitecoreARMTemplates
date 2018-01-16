@@ -711,9 +711,7 @@
         }
       },
       "dependsOn": [
-        "[resourceId('Microsoft.Resources/deployments', concat(deployment().name, '-infrastructure'))]",
-        "[resourceId('Microsoft.Resources/deployments', concat(deployment().name, '-infrastructure-exm'))]",
-        "[resourceId('Microsoft.Resources/deployments', concat(deployment().name, '-application'))]"
+        "[resourceId('Microsoft.Resources/deployments', concat(deployment().name, '-infrastructure-exm'))]"
       ]
     },
     {
